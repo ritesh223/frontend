@@ -1,0 +1,73 @@
+:root {
+    --beige: #4A0404;
+    --purple: #C5ADC5;
+    --black: #26282A;
+    --white: #f6f6f6;
+    --orange: #FF3131;
+    --blue: #045DE9;
+}
+
+#guide_register-container {
+    background-color: var(--white);
+    height: 140vh;
+}
+
+#guide_register-row {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+}
+
+@media(max-width:630px) {
+    #guide_register-row {
+        flex-direction: column;
+    }
+    #guide_register-container {
+        height: 280vh;
+    }
+    #guide_login {
+        margin-bottom: 10vh;
+    }
+}
+
+#guide_login {
+    background: linear-gradient(to right, #39013f, #b08518);
+    width: 100%;
+    clip-path: polygon(0 0, 90% 0%, 100% 100%, 0 100%);
+    display: flex;
+}
+
+.singup_form h3 {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.singup_form h3 small {
+    color: var(--blue);
+}
+
+#guide_signup_btn1 {
+    border: 1px solid var(--blue);
+    background-color: var(--blue);
+    color: var(--white);
+}
+
+#guide_signup_btn1:hover {
+    background-color: var(--white);
+    color: var(--blue);
+}
+
+#register_btn2 {
+    background-color:linear-gradient(to left, #39013f, #b08518);
+    columns: var(--white);
+}
+
+#register_btn2:hover {
+    background-color: var(--white);
+    color: var(--blue);
+    border: var(--blue);
+}

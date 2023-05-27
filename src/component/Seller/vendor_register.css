@@ -1,0 +1,64 @@
+:root{
+    --beige : #4A0404;
+    --purple:#C5ADC5;
+    --black:#26282A;
+    --white:#f6f6f6;
+    --orange:#FF3131;
+    --blue:#045DE9;
+}
+#vendor_register-container{
+    background-color: var(--white);
+    height: 150vh;
+}
+#vendor_register-row{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+}
+@media(max-width:630px ){
+    #vendor_register-row{
+        flex-direction: column;
+    }
+    #vendor_register-container{
+        height: 280vh;
+    }
+    #vendor_login{
+        margin-bottom: 10vh;
+    }
+}
+#vendor_login{
+    background: linear-gradient(to right, #09C6F9,#045DE9);
+    width: 100%;
+    clip-path: polygon(0 0, 90% 0%, 100% 100%, 0 100%);
+    display: flex;
+}
+.singup_form h3{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+.singup_form h3 small{
+    color: var(--blue);
+}
+#vendor_signup_btn1{
+    border: 1px solid var(--blue);
+    background-color: var(--blue);
+    color: var(--white);
+}
+
+#vendor_signup_btn1:hover{
+    background-color: var(--white);
+    color: var(--blue);
+}
+#register_btn1{
+    background-color: var(--blue);
+    columns: var(--white);
+}
+#register_btn1:hover{
+    background-color: var(--white);
+    color: var(--blue);
+    border: var(--blue);
+}

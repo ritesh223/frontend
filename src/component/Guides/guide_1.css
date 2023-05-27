@@ -1,0 +1,94 @@
+:root {
+    --beige: #4A0404;
+    --purple: #C5ADC5;
+    --black: #26282A;
+    --white: #f6f6f6;
+    --orange: #FF3131;
+    --green: #35a149;
+}
+
+.cont_guide {
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url("../../img/background/four.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.search_box {
+    padding: 20px;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, .15);
+    backdrop-filter: blur(10px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.heading_one h1 {
+    text-align: center;
+}
+
+.heading_one h5 {
+    text-align: center;
+}
+
+.location {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.location i {
+    font-size: 1.3rem;
+    align-items: center;
+}
+
+.location .btn {
+    border: 3px solid var(--black);
+    color: var(--black);
+}
+
+.calander {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.check_in {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid var(--black);
+    border-radius: 2px;
+}
+
+.check_in #check_in {
+    border: none;
+    background-color: var(--black);
+    color: var(--white);
+    padding: 5px;
+}
+
+
+
+
+.search_btn {
+    display: flex;
+    justify-content: center;
+}
+
+.search_btn button {
+    border: 2px solid var(--black);
+    color: var(--black);
+}
+
+.search_btn button:hover {
+    border: 2px solid var(--orange);
+}

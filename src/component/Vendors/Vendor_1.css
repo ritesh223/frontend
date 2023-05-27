@@ -1,0 +1,188 @@
+/* Set the background color for the page */
+body::-webkit-scrollbar {
+    display: none;
+}
+
+/* Style the header */
+.vend{
+    /* margin-top: 10px; */
+    /* border: 2px solid black; */
+    background-image: url("../../img/masahiro-miyagi-RJeYWlmksGI-unsplash.jpg");
+    background-size: cover;
+        background-position: center;
+    /* border: 2px solid black; */
+    height: 100vh;
+    /* position: inherit; */
+        /* Ensure that the parent container is positioned relatively */
+        overflow: scroll;
+}
+.vend::-webkit-scrollbar {
+    display: none;
+}
+.vend h1 {
+    font-size: 3em;
+    text-align: center;
+    /* margin-top: 10px; */
+    padding: 5vh;
+    color: #0a0000;
+}
+
+/* Style the subheader */
+.vend h2 {
+    font-size: 2em;
+    text-align: center;
+    /* margin-top: 20px; */
+    color: #080808;
+}
+
+/* Style the container for the buttons */
+.vendb {
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 50px;
+    flex-grow: 3;
+}
+
+/* Style the buttons */
+.vendb button {
+    background-color: #b70c15;
+    border: none;
+    color: #fff;
+    padding: 15px 25px;
+    margin: 10px;
+    font-size: 1.2em;
+    border-radius: 5px;
+    box-shadow: 0px 4px 10px rgba(143, 13, 13, 0.2);
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    width: max-content;
+}
+
+/* Style the buttons on hover */
+.vendb button:hover {
+    background-color: #333;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.4);
+    transform: translateY(-3px);
+}
+/* .hotelcs{
+/* position: absolute; */
+    /* z-index: 9999; */
+   
+/* } */ 
+.hotelcs::-webkit-scrollbar {
+    display: none;
+}
+.hotelcss {
+
+display: flex;
+    border-radius: 50px;
+    position: relative;
+    background-color: #6a2424;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    /* max-height: 80vh; */
+    /* Set max-height to viewport height */
+    overflow: auto;
+    /* Enable vertical scrolling */
+}
+
+.hotelcss {
+    background-color: rgb(210, 179, 122);
+    padding: 20px;
+    border-radius: 5px;
+    position: relative;
+    width: 80%;
+    max-width: 600px;
+    text-align: center;
+}
+.hotelcss h2{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: inherit;
+    font-weight: 200;
+    
+}
+.hotelcss::-webkit-scrollbar {
+    display: none;
+}
+
+
+
+/* form */
+
+.form1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+}
+
+.form1 label {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.form1 input[type="text"],
+.form1 input[type="number"],
+.form1 textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    font-size: 16px;
+}
+
+.form1 textarea {
+    height: 100px;
+}
+
+.form1 input[type="file"] {
+    margin-top: 20px;
+}
+
+.form1 button[type="submit"] {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin-top: 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.form1 button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+.form1 #category{
+    border-radius: 5px;
+    width: 10vh;
+    text-align: center;
+    
+    font-size: 16px;
+    font-weight: bolder;
+
+}
+
+.close {
+    color: #030202;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    cursor: pointer;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}

@@ -1,0 +1,98 @@
+:root{
+    --beige : #4A0404;
+    --purple:#C5ADC5;
+    --black:#26282A;
+    --white:#f6f6f6;
+    --orange:#FF3131;
+    --blue:#045DE9;
+}
+/* vendor css */
+.vendor{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content:center ;
+    align-items: center;
+    background:linear-gradient(to right, #09C6F9,#045DE9);
+}
+.start_now{
+    /* border: 2px solid var(--white); */
+    color: var(--white);
+    background-color: var(--blue);
+}
+.start_now:hover{
+    /* background-color: var(--white);
+    color: var(--blue); */
+    border: 1px solid var(--white);
+}
+
+/* services css */
+.services{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content:center ;
+    align-items: center;
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.vertical{
+    width: 80%;
+    border: 2px solid var(--beige);
+}
+.vendor_services{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+.why_choose_bt{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+.why_choose_bt h1{
+    color: var(--blue);
+}
+.vendor_services_steps{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+.steps_for_sell{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+.steps_for_sell h1{
+    text-align: center;
+    color: var(--orange);
+}
+.steps_for_sell h5{
+    text-align: center;
+}
+.steps_for_sell p{
+    text-align: center;
+}
+@media(max-width:770px){
+    .vendor_services_steps{
+        flex-direction: column;
+    }
+    .vendor_services{
+        flex-direction: column;
+    }
+    .grow_business{
+        margin-left: 20px;
+    }
+    .grow_business h1{
+        font-weight: lighter;
+    }
+}

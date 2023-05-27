@@ -1,0 +1,47 @@
+:root{
+    --beige : #DDD0C8;
+    --purple:#C5ADC5;
+    --black:#26282A;
+    --white:#f6f6f6;
+    --orange:#FF4433;
+
+}
+html,body{
+    background-color: var(--white);
+    min-height: 100%;
+    /* overflow-y: scroll;  */
+    /* overflow-y: hidden; */
+  /* scrollbar-width: thin; 
+  scrollbar-color: transparent transparent; */
+    /* overflow: hidden; */
+}
+/* body::-webkit-scrollbar {
+    width: 6px; 
+  }
+  
+  body::-webkit-scrollbar-track {
+    background-color: transparent; 
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background-color: transparent;
+  } */
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+    -moz-appearance: textfield;
+}
+
+.greenColor {
+    color: green !important;
+}
+
+.redColor {
+    color: red !important;
+}

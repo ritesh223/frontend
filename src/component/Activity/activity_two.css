@@ -1,0 +1,22 @@
+:root{
+    --beige : #4A0404;
+    --purple:#C5ADC5;
+    --black:#26282A;
+    --white:#f6f6f6;
+    --orange:#FF3131;
+}
+.activity_two{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+@media(max-width:630px ){
+    .activity_two{
+        flex-direction: column;
+    }
+}

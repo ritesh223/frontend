@@ -1,0 +1,50 @@
+:root{
+    --beige : #4A0404;
+    --purple:#C5ADC5;
+    --black:#26282A;
+    --white:#f6f6f6;
+    --orange:#FF3131;
+    --blue:#045DE9;
+    --lightBlue:#ADD8E6;
+    --steelGrey:#71797E;
+}
+.Dash_Profile{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    background-color: var(--white);
+}
+.Dash_Profile p{
+    color: var(--steelGrey);
+}
+.btn:hover{
+    color: var(--white);
+}
+.gender input{
+    margin-left:10px ;
+}
+.birth{
+    width: min-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    border: 2px solid var(--black);
+    border-radius: 2px;
+}
+.birth #check_in{
+    border:none;
+    background-color: var(--black);
+    color: var(--white);
+    padding: 5px;
+}
+.dropdown #status{
+    border: none;
+    background-color: var(--black);
+    color: var(--white);
+    padding: 5px;
+    border-radius: 5px;
+}
+/* .profile_details{
+
+} */

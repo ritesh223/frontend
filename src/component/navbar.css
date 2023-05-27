@@ -1,0 +1,144 @@
+:root{
+    --beige : #4A0404;
+    --purple:#C5ADC5;
+    --black:#26282A;
+    --white:#f6f6f6;
+    --orange:#FF3131;
+}
+
+body{
+    background-color: var(--white);
+    /* border: 2px solid var(--black); */
+}
+.nav-link:hover{
+    color: var(--orange);
+}
+
+.btn{
+    border: 1px solid var(--orange);
+    color: var(--orange);
+}
+.btn:hover{
+    background-color: var(--orange);
+    border: 1px solid var(--orange);
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    /* border: 2px solid black; */
+    /* border-radius: 50px; */
+    /* Add this */
+}
+
+.dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1000;
+    display: block;
+    padding: 0.5rem 0;
+    margin: 0.125rem 0 0;
+    font-size: 1rem;
+    color: #212529;
+    text-align: left;
+    background-color: #fff;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    border-radius: 0.50rem;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.175);
+}
+@media(max-width:990px) {
+    .dropdown-menu{
+        margin-top: -200px;
+        /* border: 2px solid rgba(0, 0, 0, 0.5); */
+        
+    }
+}
+
+
+/* Login button styles */
+.btnlogin {
+    background-color: var(--orange);
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+    max-height: 50px;
+}
+.btnlogin:hover{
+    background-color: var(--beige);
+}
+
+/* Modal styles */
+.nav-modal-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+    
+}
+
+.nav-modal {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    width: 350px;
+}
+
+.nav-modal h2 {
+    margin-top: 20px;
+}
+
+.nav-modal-close {
+    position: absolute;
+    /* top: 10px; */
+    /* right: 0px; */
+    background-color: var(--black);
+    border: none;
+    cursor: pointer;
+    font-size: 24px;
+    line-height: 0.5;
+    padding: 0;
+    outline: none;
+    font-weight: bolder;
+}
+
+.buttons-container {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+
+.buttons-container button {
+    background-color: #f8a008;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.buttons-container button:hover {
+    background-color: var(--beige);
+}
+.navbar-toggler{
+    background-color: transparent;
+
+}

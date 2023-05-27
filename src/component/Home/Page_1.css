@@ -1,0 +1,71 @@
+:root{
+  --beige : #4A0404;
+  --purple:#C5ADC5;
+  --black:#26282A;
+  --white:#f6f6f6;
+  --orange:#FF3131;
+}
+body{
+
+}
+.div {
+  background-image: url('/src/img/background/three.jpg');
+  background-size: contain;
+  width: 100%;
+  height: 110vh;
+  background-size: 100% 110vh;
+  background-repeat: no-repeat;
+  clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
+  color: var(--white);
+}
+
+.container {
+  height: 120vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  align-content: center;
+  align-self: center;
+  animation: title 2s 1;
+  position: relative;
+  color: var(--text_color);
+}
+
+.title h1 {
+  font-size: 4rem;
+  text-shadow: 2px 2px 5px black;
+}
+
+.title h2 {
+  position: absolute;
+  right: -70%;
+  font-size: 2rem;
+  font-family: 'Playball', Times, serif;
+  text-shadow: 2px 2px 5px black;
+}
+
+
+@media(max-width:630px) {
+  .title h1 {
+    font-size: 2rem;
+  }
+
+  .title h2 {
+    font-size: 1.5rem;
+    right: -10%;
+  }
+}
+
+@keyframes title {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+
+}

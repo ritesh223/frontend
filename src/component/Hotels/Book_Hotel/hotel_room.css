@@ -1,0 +1,377 @@
+:root{
+    --beige : #4A0404;
+    --purple:#C5ADC5;
+    --black:#26282A;
+    --white:#f6f6f6;
+    --orange:#FF3131;
+  }
+.room_detail{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+} 
+.maindiv{
+  display: flex;justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+} 
+.room_img{
+ 
+  padding: 10px;
+  padding-left: 100px;
+  padding-right: 100px;
+  width: 100%;
+  /* display: flex;
+    justify-content: center;
+    /* center horizontally */
+    /* align-items: center;  */
+    
+}
+@media(max-width:770px) {
+  .room_img{
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .submitReview{
+    width:100px;
+    height: 20px;
+    font-size: larger;
+  }
+  }
+.room_book{
+  margin: 5px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 1px 1px 3px var(--black);
+  color: var(--black);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+} 
+/* review tab */
+.display_room{
+  display: flex;
+  flex-direction: row;
+  height: auto;
+  color: var(--black);
+  padding: 10px;
+}
+.reviews{
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  height: auto;
+  flex-grow: 1;
+  padding: 10px;
+  color: var(--black);
+}
+.horizontal{
+  border: 1px solid var(--black);
+}
+.room_to_book{
+  /* box-shadow: 1px 1px 4px var(--black);
+  border-radius: 20px; */
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  width:70%;
+  /* \|/ */
+  height: auto;
+  flex-grow: 2;
+
+}
+.room_types {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  transition: all 0.3s ease;
+  width: 280px;
+  height: 320px;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+.card h6 {
+  font-size: 1.25rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.card p {
+  font-size: 1.25rem;
+  margin-bottom: 1.5rem;
+}
+
+.card ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.card ul li {
+  font-size: 0.875rem;
+  margin-bottom: 0.25rem;
+}
+
+.btn {
+  border: none;
+  border-radius: 5px;
+  background-color: #e23622c8;
+  color: #fff;
+  padding: 0.75rem 1rem;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #e08282;
+}
+.vendor_id {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  font-size: 14px;
+  font-weight: bold;
+  color: #777;
+}
+.CarouselImage{
+  width: 100%;
+  height: auto;
+}
+.room_info{
+  margin:8vh;
+  display: block;
+  text-align: center;
+}
+.stockstats{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.noofrooms{
+  /* font-size: 1.5rem; */
+  /* color: #fff; */
+  width: 8vh;
+  /* border: 2px solid red; */
+  /* margin-top: 10px; */
+  border: transparent;
+  text-align: center;
+
+}
+.inputbtn{
+  /* border: 2px solid green; */
+  /* border-radius: 5px; */
+  /* background-color: #e08282; */
+  /* color: #fff; */
+  padding: 0.75rem 1rem;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+
+}
+.submitReview {
+  align-items: center;
+  border: none;
+  background-color: tomato;
+  font: 500 0.7vmax "Roboto";
+  border-radius: 20px;
+  padding: 0.6vmax 2vmax;
+  margin: 1vmax 0;
+  color: white;
+  cursor: pointer;
+  transition: all 0.5s;
+  outline: none;
+}
+
+.submitReview:hover {
+  background-color: rgb(197, 68, 45);
+  transform: scale(1.1);
+}
+.reviewsHeading {
+  color: #000000be;
+  font: 500 1.4vmax "Roboto";
+  text-align: center;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.226);
+  padding: 1vmax;
+  width: 20vmax;
+  margin: auto;
+  margin-bottom: 4vmax;
+}
+
+.reviews {
+  display: flex;
+  overflow: auto;
+}
+
+.reviewCard {
+  flex: none;
+
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.226);
+  border: 1px solid rgba(56, 56, 56, 0.116);
+  width: 30vmax;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 1vmax;
+  padding: 3vmax;
+}
+
+.reviewCard>img {
+  width: 5vmax;
+}
+
+.reviewCard>p {
+  color: rgba(0, 0, 0, 0.836);
+  font: 600 0.9vmax "Roboto";
+}
+
+.reviewCardComment {
+  color: rgba(0, 0, 0, 0.445);
+  font: 300 0.8vmax cursive;
+}
+.reviewsubmit{
+
+  text-align: center;
+}
+.submitDialog {
+  display: flex;
+  flex-direction: column;
+}
+
+.submitDialogTextArea {
+  border: 1px solid rgba(0, 0, 0, 0.082);
+  margin: 1vmax 0;
+  outline: none;
+  padding: 1rem;
+  font: 300 1rem "Roboto";
+}
+
+
+.daynight {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.detailsBlocks-3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.detailsBlocks-3 h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+.detailsBlocks-3 p {
+  /* font-size: 24px; */
+  margin: 10px;
+}
+
+.detailsBlocks-3-1 {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.detailsBlocks-3-1-1 {
+  display: flex;
+  align-items: center;
+}
+
+.detailsBlocks-3-1-1 button {
+  font-size: 16px;
+  padding: 5px 10px;
+}
+
+.detailsBlocks-3-1-1 input {
+  width: 50px;
+  text-align: center;
+  margin: 0 10px;
+}
+
+.detailsBlocks-3-1 button {
+  font-size: 16px;
+  padding: 5px 10px;
+}
+
+.packagecategory {
+  
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.packagecategory h5{
+  font-size: medium;
+}
+
+.package_info {
+  margin-bottom: 20px;
+}
+.daysum {
+  width: 50%;
+  /* border: 2px solid black; */
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.daysum h4 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.daysum div {
+  background-color: #f0dda8;
+  border-radius: 15px;
+  padding: 10px;
+  margin-bottom: 10px;
+  /* width: 50%; */
+}
+
+.daysum div p {
+  margin: 0;
+}
+
+.Activitysum {
+  /* border: 2px solid black; */
+  text-align: center;
+  margin-bottom: 20px;
+  width: 50%;
+}
+
+.Activitysum h5 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.Activitysum div {
+  background-color: #f88484;
+  border-radius: 8px;
+  padding: 10px;
+  margin-bottom: 10px;
+    /* width: 50%; */
+}
+
+.Activitysum div p {
+  margin: 0;
+}

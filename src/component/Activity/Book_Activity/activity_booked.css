@@ -1,0 +1,72 @@
+:root{
+    --beige : #4A0404;
+    --purple:#C5ADC5;
+    --black:#26282A;
+    --white:#f6f6f6;
+    --orange:#FF3131;
+}
+.Activity_booked{
+    width: 100%;
+    height: auto;
+    padding: 20px;
+}
+.Activity_img{
+    
+    padding-left: 90px;
+    padding-right: 90px;
+  }
+/* review tab */
+.display_Activity{
+    display: flex;
+    flex-direction: row;
+    height: auto;
+    color: var(--black);
+    padding: 20px;
+    margin-top: 20px;
+  }
+  .booking_activity{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    height: auto;
+    flex-grow: 1;
+    padding: 10px;
+    color: var(--black);
+  }
+  .horizontal{
+    border: 1px solid var(--black);
+}
+.activity_booking{
+  margin: 5px;
+padding: 20px;
+border-radius: 10px;
+box-shadow: 1px 1px 3px var(--black);
+color: var(--black);
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+}
+  .activity_to_book{
+    /* box-shadow: 1px 1px 4px var(--black);
+    border-radius: 20px; */
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    width:70%;
+    /* \|/ */
+    height: auto;
+    flex-grow: 2;
+  }  
+.features_provided{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    color: var(--orange);
+}  
+.overview_activity{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+}

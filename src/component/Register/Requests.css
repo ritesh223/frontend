@@ -1,0 +1,45 @@
+.requests-container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.requests-form {
+    display: grid;
+    grid-gap: 10px;
+}
+
+.form-group {
+    display: grid;
+}
+
+label {
+    font-weight: bold;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+@media screen and (max-width: 480px) {
+    .requests-form {
+        grid-template-columns: 1fr;
+    }
+}

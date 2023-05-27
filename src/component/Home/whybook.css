@@ -1,0 +1,23 @@
+:root{
+    --beige : #4A0404;
+    --purple:#C5ADC5;
+    --black:#26282A;
+    --white:#f6f6f6;
+    --orange:#FF3131;
+  }
+
+  #whybook_flex{
+    display: flex;
+    flex-direction: row;
+    padding:20px;
+  }
+
+  @media(max-width:630px ){
+    #whybook_flex{
+        display: flex;
+        flex-direction: column;
+      }
+    #whybook_line{
+        display: none;
+    }  
+}

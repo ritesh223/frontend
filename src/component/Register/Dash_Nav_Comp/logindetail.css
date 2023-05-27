@@ -1,0 +1,20 @@
+:root{
+    --beige : #4A0404;
+    --purple:#C5ADC5;
+    --black:#26282A;
+    --white:#f6f6f6;
+    --orange:#FF3131;
+    --blue:#045DE9;
+    --lightBlue:#ADD8E6;
+    --steelGrey:#71797E;
+}
+.Login_details{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    background-color: var(--white);
+}
+.Login_details p{
+    color: var(--steelGrey);
+    
+}
