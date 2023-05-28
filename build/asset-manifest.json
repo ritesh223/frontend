@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.07c81112.css",
-    "main.js": "/static/js/main.bc014025.js",
+    "main.js": "/static/js/main.5bf6cb04.js",
     "static/js/496.a1d7549f.chunk.js": "/static/js/496.a1d7549f.chunk.js",
     "static/media/masahiro-miyagi-RJeYWlmksGI-unsplash.jpg": "/static/media/masahiro-miyagi-RJeYWlmksGI-unsplash.90dbf0784d4ef6e88861.jpg",
     "static/media/ballon.png": "/static/media/ballon.72e59a5fa39c02dd2fb2.png",
@@ -36,11 +36,11 @@
     "static/media/goa_adventure.jpg": "/static/media/goa_adventure.2caa6665341f30f614e3.jpg",
     "index.html": "/index.html",
     "main.07c81112.css.map": "/static/css/main.07c81112.css.map",
-    "main.bc014025.js.map": "/static/js/main.bc014025.js.map",
+    "main.5bf6cb04.js.map": "/static/js/main.5bf6cb04.js.map",
     "496.a1d7549f.chunk.js.map": "/static/js/496.a1d7549f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.07c81112.css",
-    "static/js/main.bc014025.js"
+    "static/js/main.5bf6cb04.js"
   ]
 }
