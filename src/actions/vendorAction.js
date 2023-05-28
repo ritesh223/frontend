@@ -49,7 +49,7 @@ import {
 import axios from "axios";
 // const axios = require("axios");
 const api = axios.create({
-  baseURL: "https://Budgettrip.com",
+  baseURL: "https://budgettrip.onrender.com",
 });
 
 export const loginv = (email, password) => async (dispatch) => {

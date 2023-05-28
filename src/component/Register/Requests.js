@@ -34,7 +34,7 @@ const Requests = () => {
 
     try {
       const response = await axios.post(
-        "http://192.168.56.1:4000/api/v1/requests",
+        "https://budgettrip.onrender.com/api/v1/requests",
         formData
       );
 

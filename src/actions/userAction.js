@@ -45,7 +45,7 @@ import axios from "axios";
 // const axios = require("axios");
 const Baseurl = process.env.REACT_SERVER;
 const api = axios.create({
-  baseURL: "https://Budgettrip.com",
+  baseURL: "https://budgettrip.onrender.com",
 });
 // axios.defaults.withCredentials = true;
 // Login

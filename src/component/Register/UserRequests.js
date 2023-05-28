@@ -14,7 +14,9 @@ const UserRequests = () => {
   useEffect(() => {
     const fetchUserRequests = async () => {
       try {
-        const res = await axios.get("http://localhost:4000/api/v1/requests1");
+        const res = await axios.get(
+          "https://budgettrip.onrender.com/api/v1/requests1"
+        );
        
 
         if (res.data.success) {
