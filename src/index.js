@@ -15,7 +15,7 @@ import withReactContent from "sweetalert2-react-content";
 import { ToastContainer } from "react-toastify";
 
 // const MySwal = withReactContent(Swal);
-console.log("Server running on http://localhost:3000");
+// console.log("Server running on http://localhost:3000");
 
 const options = {
   timeout: 5000,

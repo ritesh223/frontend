@@ -43,8 +43,9 @@ import {
 // import Cookies from "js-cookie";
 import axios from "axios";
 // const axios = require("axios");
+const Baseurl = process.env.REACT_SERVER;
 const api = axios.create({
-  baseURL: "http://192.168.56.1:4000",
+  baseURL: "https://Budgettrip.com",
 });
 // axios.defaults.withCredentials = true;
 // Login
