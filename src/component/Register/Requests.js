@@ -34,7 +34,7 @@ const Requests = () => {
 
     try {
       const response = await axios.post(
-        "https://budgettrip.onrender.com/api/v1/requests",
+        "https://budgettrip1.onrender.com/api/v1/requests",
         formData
       );
 

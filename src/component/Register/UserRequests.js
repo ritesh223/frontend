@@ -15,7 +15,7 @@ const UserRequests = () => {
     const fetchUserRequests = async () => {
       try {
         const res = await axios.get(
-          "https://budgettrip.onrender.com/api/v1/requests1"
+          "https://budgettrip1.onrender.com/api/v1/requests1"
         );
        
 

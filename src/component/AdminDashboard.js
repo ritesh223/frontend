@@ -14,7 +14,7 @@ const alert = useAlert();
     const fetchCollections = async () => {
       try {
         const response = await axios.get(
-          "https://budgettrip.onrender.com/collections"
+          "https://budgettrip1.onrender.com/collections"
         );
         setCollections(response.data);
       } catch (error) {
@@ -28,7 +28,7 @@ const deleteRecord = async (collection, dataId) => {
   try {
     // Make an API request to delete the record with the provided collection and ID
     const response = await fetch(
-      `https://budgettrip.onrender.com/deleteRecord/${collection}/${dataId}`,
+      `https://budgettrip1.onrender.com/deleteRecord/${collection}/${dataId}`,
       {
         method: "DELETE",
         headers: {
@@ -55,7 +55,7 @@ const deleteRecord = async (collection, dataId) => {
   const fetchCollectionData = async (collection) => {
     try {
       const response = await axios.get(
-        `https://budgettrip.onrender.com/collections/${collection}`
+        `https://budgettrip1.onrender.com/collections/${collection}`
       );
       setCollectionData(response.data);
       setSelectedCollection(collection);
