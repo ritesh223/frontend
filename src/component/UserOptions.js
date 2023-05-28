@@ -13,8 +13,9 @@ import { logout } from "../actions/userAction";
 
 import { useDispatch, useSelector } from "react-redux";
 
-const UserOptions = ({ user }) => {
+const UserOptions = () => {
   const { cartItems } = useSelector((state) => state.cart);
+  const { user } = useSelector((state) => state.user);
 
   const [open, setOpen] = useState(false);
   const history = useHistory();

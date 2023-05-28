@@ -16,8 +16,8 @@ import { useAlert } from "react-alert";
 import { useDispatch, useSelector } from "react-redux";
 import { logout } from "../actions/vendorAction";
 
-const VendorOptions = ({ vendor }) => {
-  // const { cartItems } = useSelector((state) => state.cart);
+const VendorOptions = () => {
+  const { vendor } = useSelector((state) => state.vendor);
 
   const [open, setOpen] = useState(false);
   const history = useHistory();
